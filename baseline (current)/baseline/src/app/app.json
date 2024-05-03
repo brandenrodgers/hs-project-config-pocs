@@ -1,0 +1,16 @@
+{
+  "name": "Baseline App",
+  "description": "This is a private app.",
+  "uid": "baseline_app",
+  "scopes": ["crm.objects.contacts.read"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/baseline-card.json"
+        }
+      ]
+    }
+  }
+}
