@@ -1,0 +1,8 @@
+{
+  "type": "js-theme",
+  "name": "POC 1 JS theme",
+  "uid": "poc_1_js_theme",
+  "data": {
+    "outputPath": "./"
+  }
+}

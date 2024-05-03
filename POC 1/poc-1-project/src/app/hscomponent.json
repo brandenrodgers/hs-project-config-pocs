@@ -1,0 +1,25 @@
+{
+  "type": "private-app",
+  "name": "POC 1 app",
+  "uid": "poc_1_app",
+  "data": {
+    "description": "This is an example private app.",
+    "scopes": ["crm.objects.contacts.read"],
+    "extensions": {
+      "poc1Extension": {
+        "type": "crm-card",
+        "name": "POC 1 Card",
+        "uid": "poc_1_card",
+        "file": "extensions/Example.jsx",
+        "objectTypes": [{ "name": "contacts" }],
+        "location": "crm.record.tab"
+      }
+    },
+    "functions": {
+      "poc1Function": {
+        "file": "functions/poc-1-function.js",
+        "secrets": []
+      }
+    }
+  }
+}
