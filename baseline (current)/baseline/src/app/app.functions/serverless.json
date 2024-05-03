@@ -1,0 +1,8 @@
+{
+  "appFunctions": {
+    "baselineFunction": {
+      "file": "baseline-function.js",
+      "secrets": []
+    }
+  }
+}
