@@ -10,9 +10,9 @@ An initial effort to draft up a simpler version of project configuration. This P
   - NOTE: There would likely have to be some convention around handling the package.json files (see cons section)
 
 ## Pros and Cons
-- [PRO] Fewer total configuration files in the app component. App subcomponents do not require additional configuration files. It all takes place in the app component config.
-- [CON] We relinquish control over the extensions and app.functions folders. There is no longer any convention around folder naming. Extensions can live in any folder that the dev chooses because the files are directly referenced in the config by path.
-  - Question: How does this pattern impact the extension and function dependencies as defined in the package.json files? How should a dev define dependencies for their extensions if we don't require them to put all of their extensions in the same folder?
-- [PRO] Component config files are predictable and easy to learn. There are standardized fields that are consistent across components.
-- [PRO] The dev gains control over file and folder organization. There are no folder structure conventions in place. The user is free to organize as they please because all of the important references take place explicitly in the config.
-- [CON] The hscomponent.json files can potentially get very lengthy with this pattern. Consider an app with many extensions, functions, and webhooks defined.
+- **[PRO]** Fewer total configuration files in the app component. App subcomponents do not require additional configuration files. It all takes place in the app component config.
+- **[CON]** We relinquish control over the extensions and app.functions folders. There is no longer any convention around folder naming. Extensions can live in any folder that the dev chooses because the files are directly referenced in the config by path.
+  - **Q:** How does this pattern impact the extension and function dependencies as defined in the package.json files? How should a dev define dependencies for their extensions if we don't require them to put all of their extensions in the same folder?
+- **[PRO]** Component config files are predictable and easy to learn. There are standardized fields that are consistent across components.
+- **[PRO]** The dev gains control over file and folder organization. There are no folder structure conventions in place. The user is free to organize as they please because all of the important references take place explicitly in the config.
+- **[CON]** The hscomponent.json files can potentially get very lengthy with this pattern. Consider an app with many extensions, functions, and webhooks defined.
