@@ -1,0 +1,10 @@
+{
+  "type": "app",
+  "name": "POC 2 App",
+  "uid": "poc_2_app",
+  "data": {
+    "public": false,
+    "description": "This is an example private app.",
+    "scopes": ["crm.objects.contacts.read"]
+  }
+}
