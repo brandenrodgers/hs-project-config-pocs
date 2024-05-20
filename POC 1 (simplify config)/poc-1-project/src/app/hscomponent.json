@@ -10,14 +10,14 @@
         "type": "crm-card",
         "name": "POC 1 Card",
         "uid": "poc_1_card",
-        "file": "extensions/Example.jsx",
+        "file": "extensions/Poc1Card.jsx",
         "objectTypes": [{ "name": "contacts" }],
         "location": "crm.record.tab"
       }
     },
     "functions": {
       "poc1Function": {
-        "file": "functions/poc-1-function.js",
+        "file": "functions/poc1Function.js",
         "secrets": []
       }
     }
