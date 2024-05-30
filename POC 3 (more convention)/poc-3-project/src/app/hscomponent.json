@@ -7,8 +7,14 @@
     "scopes": ["crm.objects.contacts.read"],
     "extensions": [
       {
-        "name": "POC 3 Card",
-        "file": "extensions/Poc3Card.jsx"
+        "name": "POC 3 Card 1",
+        "file": "extensions/Poc3Card1.jsx"
+      },
+      {
+        "name": "POC 3 Card 2",
+        "file": "extensions/Poc3Card2.jsx",
+        "objectTypes": ["contacts"],
+        "location": "crm.record.tab"
       }
     ],
     "functions": [{ "file": "functions/poc3Function.js", "secrets": [] }]
