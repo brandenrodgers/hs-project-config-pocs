@@ -1,0 +1,11 @@
+{
+  "type": "crm-card",
+  "name": "POC 2 Card 1",
+  "uid": "poc_2_card_1",
+  "auth": "poc_2_app",
+  "data": {
+    "file": "Poc2Card1.jsx",
+    "objectTypes": [{ "name": "contacts" }],
+    "location": "crm.record.tab"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "serverless-function",
+  "name": "POC 2 Function 1",
+  "uid": "poc_2_function_1",
+  "auth": "poc_2_app",
+  "data": {
+    "file": "poc2Function1.js",
+    "secrets": []
+  }
+}
