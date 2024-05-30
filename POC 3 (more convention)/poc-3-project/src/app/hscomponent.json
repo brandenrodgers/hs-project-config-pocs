@@ -17,6 +17,6 @@
         "location": "crm.record.tab"
       }
     ],
-    "functions": [{ "file": "functions/poc3Function.js", "secrets": [] }]
+    "functions": [{ "file": "functions/poc3Function.js" }]
   }
 }
