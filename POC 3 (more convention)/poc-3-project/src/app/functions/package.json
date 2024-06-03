@@ -1,0 +1,7 @@
+{
+  "name": "poc-3-functions",
+  "dependencies": {
+    "@hubspot/api-client": "^7.0.1",
+    "axios": "^0.27.2"
+  }
+}

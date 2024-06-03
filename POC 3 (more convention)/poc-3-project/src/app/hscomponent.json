@@ -1,0 +1,22 @@
+{
+  "type": "private-app",
+  "name": "POC 3 app",
+  "uid": "poc_3_app",
+  "data": {
+    "description": "This is an example private app.",
+    "scopes": ["crm.objects.contacts.read"],
+    "extensions": [
+      {
+        "name": "POC 3 Card 1",
+        "file": "extensions/Poc3Card1.jsx"
+      },
+      {
+        "name": "POC 3 Card 2",
+        "file": "extensions/Poc3Card2.jsx",
+        "objectTypes": ["contacts"],
+        "location": "crm.record.tab"
+      }
+    ],
+    "functions": [{ "file": "functions/poc3Function.js" }]
+  }
+}
