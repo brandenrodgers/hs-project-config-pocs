@@ -1,0 +1,24 @@
+{
+  "type": "app",
+  "name": "POC 4 app",
+  "uid": "poc_4_app",
+  "data": {
+    "public": true,
+    "description": "This is an example public app.",
+    "scopes": ["crm.objects.contacts.read"],
+    "auth": {
+      "redirectUrls": ["http://app.domain.com/oauth"],
+      "requiredScopes": ["oauth", "content"]
+    },
+    "allowedUrls": ["http://app.domain.com"],
+    "extensions": [
+      {
+        "name": "POC 4 Card",
+        "file": "extensions/Poc4Card.jsx"
+      }
+    ],
+    "constants": {
+      "API_DOMAIN": "http://app.domain.com"
+    }
+  }
+}
