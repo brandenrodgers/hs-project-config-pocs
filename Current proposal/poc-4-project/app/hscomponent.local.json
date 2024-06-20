@@ -1,0 +1,12 @@
+{
+  "parent": "./hscomponent.json",
+  "data": {
+    "auth": {
+      "redirectUrls": ["http://localhost/oauth"]
+    },
+    "allowedUrls": ["http://localhost"],
+    "constants": {
+      "API_DOMAIN": "http://localhost"
+    }
+  }
+}
