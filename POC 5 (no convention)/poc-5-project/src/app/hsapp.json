@@ -1,0 +1,27 @@
+{
+  "name": "POC 5 app",
+  "uid": "poc_5_app",
+  "data": {
+    "public": true,
+    "description": "This is an example public app.",
+    "scopes": ["crm.objects.contacts.read"],
+    "auth": {
+      "redirectUrls": ["http://app.domain.com/oauth"],
+      "requiredScopes": ["oauth", "content"]
+    },
+    "allowedUrls": ["http://app.domain.com"],
+    "extensions": {
+      "extensionsDir": "./extensions",
+      "cards": [
+        {
+          "name": "POC 5 Card",
+          "uid": "poc_5_card",
+          "file": "extensions/Poc5Card.jsx",
+          "location": "crm.record.tab",
+          "objectTypes": ["contacts"]
+        }
+      ]
+    },
+    "webhooks": "./webhooks.json"
+  }
+}

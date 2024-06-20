@@ -17,6 +17,22 @@
         "file": "extensions/ExampleCard.jsx"
       }
     ],
+    "webhooks": {
+      "settings": {
+        "targetUrl": "https://example.com/webhook",
+        "maxConcurrentRequests": 10
+      },
+      "subscriptions": {
+        "crmObjects": [
+          {
+            "subscriptionType": "object.propertyChange",
+            "objectName": "contact",
+            "propertyName": "firstname",
+            "active": true
+          }
+        ]
+      }
+    },
     "constants": {
       "API_DOMAIN": "http://app.domain.com"
     }

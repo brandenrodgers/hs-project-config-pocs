@@ -1,0 +1,15 @@
+{% require_css %}
+  <style>
+    {% scope_css %}
+      .example {
+        {% if module.styles.background.color.color %}
+          background-color: {{ module.styles.background.color.color|convert_rgb }};
+        {% endif %}
+      }
+    {% end_scope_css %}
+  </style>
+{% end_require_css %}
+
+<div class="example">
+  Hi from an example module
+</div>
